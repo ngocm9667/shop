@@ -1,0 +1,321 @@
+/* Reset CSS */
+* {
+    margin: 10;
+    padding: 10;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    line-height: 1.6;
+}
+
+.add-to-cart-btn {
+    background-color: #000000; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 10px 20px; /* Kích thước padding */
+    border: none; /* Loại bỏ đường viền */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua button */
+    border-radius: 5px; /* Bo tròn góc */
+    text-align: center; /* Căn chỉnh văn bản vào giữa */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    display: inline-block; /* Hiển thị inline-block để có thể cấu hình chiều dài */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049; /* Màu nền khi hover */
+}
+
+.advertisement {
+    width: 100%;
+    max-width: 600%;
+    height: 250px;
+    overflow: hidden; /* Ẩn phần 
+}
+
+.advertisement img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: 5px; /* Điều chỉnh vị trí của hình ảnh */
+    object-fit: cover; /* Đảm bảo ảnh không bị biến dạng và lấp đầy phần được chỉ định */
+}
+
+button {
+    background-color: #4CAF50; /* Màu nền mặc định */
+    color: white; /* Màu chữ mặc định */
+    padding: 10px 20px; /* Kích thước */
+    border: none; /* Không có viền */
+    border-radius: 5px; /* Góc bo tròn */
+    cursor: pointer; /* Con trỏ chuột */
+    transition: box-shadow 0.3s; /* Hiệu ứng chuyển đổi bóng */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Bóng mặc định */
+}
+
+button:hover {
+    box-shadow: 0 0 20px rgba(0,0,255,0.7); /* Bóng khi hover */
+}
+
+/* Thiết lập font-size và padding cho thiết bị di động */
+@media only screen and (max-width: 600px) {
+    .add-to-cart-btn {
+        font-size: 12px;
+        padding: 2px 2px;
+    }
+}
+    .advertisement {
+    /* Điều chỉnh kích thước, vị trí hoặc các thuộc tính khác tại đây */
+        width: 100%; /* Ví dụ: phần quảng cáo sẽ chiếm toàn bộ chiều rộng của màn hình */
+  }
+}
+
+/* style.css */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.order-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.order-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.order-form input[type="text"],
+.order-form input[type="number"],
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.order-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Media queries for responsive design */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .order-form {
+        padding: 10px;
+    }
+
+    .order-form input[type="text"],
+    .order-form input[type="number"],
+    .order-form textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .order-form input[type="submit"] {
+        padding: 8px;
+        font-size: 16px;
+    }
+}    
+ 
+/* Thiết lập font-size và padding cho máy tính */
+@media only screen and (min-width: 601px) {
+    h1 {
+        font-size: 32px;
+    }
+    .container {
+        padding: 20px;
+    }
+}
+
+.products .product h3 {
+    font-size: 1rem; /* Kích thước chữ */
+    color: #333; /* Màu chữ */
+    margin-top: 10px; /* Khoảng cách từ trên xuống */
+    margin-bottom: 5px; /* Khoảng cách từ dưới lên */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* CSS cho giảm giá sản phẩm */
+.product .discount {
+    color: #999; /* Màu sắc của giá gốc */
+    text-decoration: line-through; /* Gạch ngang để chỉ ra giá gốc */
+    margin-right: 0px; /* Khoảng cách giữa giá gốc và giá giảm giá */
+}
+
+.product .sale-price {
+    color: #ff5e62; /* Màu sắc của giá giảm giá */
+    font-weight: bolder; /* Đậm để làm nổi bật giá giảm giá */
+    margin: 10px auto 0; 
+}
+
+/* style.css */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.order-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.order-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.order-form input[type="text"],
+.order-form input[type="number"],
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.order-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.hero {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: slideText 5s linear infinite;
+}
+
+@keyframes slideText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.featured .container {
+    max-width: 1200px; /* Đảm bảo phần tổng thể không vượt quá 1200px */
+    margin: 0 auto; /* Căn giữa phần tổng thể */
+}
+
+.featured .products .product {
+    width: calc(50% - 25px); /* Đặt chiều rộng của mỗi sản phẩm là 50% của phần tổng thể với một khoảng trắng 20px giữa chúng */
+    margin-right: 20px; /* Khoảng cách phía bên phải của mỗi sản phẩm */
+    margin-bottom: 20px; /* Khoảng cách dưới của mỗi sản phẩm */
+    text-align: center; /* Căn giữa nội dung trong sản phẩm */
+    display: inline-block; /* Hiển thị các sản phẩm trên cùng một dòng */
+    vertical-align: top; /* Đảm bảo các sản phẩm hiển thị cùng một hàng */
+    box-sizing: border-box; /* Đảm bảo chiều rộng và độ dày của phần border và padding được tính vào tổng chiều rộng */
+}
+
+.featured .products .product:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách phía bên phải của sản phẩm cuối cùng */
+}
+
+.products .product img {
+    max-width: 100%; /* Đặt chiều rộng của hình ảnh không vượt quá 100% của kích thước của phần tử cha */
+    height: auto; /* Đảm bảo tỷ lệ khung hình ảnh được bảo toàn */
+    display: block; /* Đặt hình ảnh là một khối để có thể sử dụng max-width */
+    margin: 0 auto; /* Căn giữa hình ảnh theo chiều ngang */
+}
+
+header {
+    background-color: #000000; /* Màu nền header */
+    color: white; /* Màu chữ */
+    padding: 20px 3; /* Khoảng cách giữa các phần tử trong header */
+    text-align: center; /* Căn giữa các phần tử trong header */
+}
+
+.container {
+    max-width: 1200px; /* Chiều rộng tối đa của container */
+    margin: 0 auto; /* Căn giữa container */
+    padding: 0 20px; /* Padding để tạo khoảng trắng xung quanh container */
+}
+
+h1 {
+    margin: 0; /* Xóa margin mặc định của h1 */
+}
+
+nav ul {
+    list-style: none; /* Ẩn các dấu đầu dòng của danh sách */
+    padding: 0; /* Xóa padding mặc định của danh sách */
+}
+
+nav ul li {
+    display: inline; /* Hiển thị các mục liên kết trên cùng một dòng */
+    margin-right: 15px; /* Khoảng cách giữa các mục liên kết */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Không có margin bên phải cho mục liên kết cuối cùng */
+}
+
+nav ul li a {
+    color: white; /* Màu chữ cho các liên kết */
+    text-decoration: none; /* Xóa gạch chân dưới các liên kết */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Gạch chân dưới liên kết khi hover */
+}

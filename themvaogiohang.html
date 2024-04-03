@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mua hàng - LUXIOUS CLOTHING</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LUXIOUS</h1>
+            <nav>
+                <ul>
+                    <li><a href="LUXIOUS.html">Trang chủ</a></li>
+                    <li><a href="sanpham.html">Sản phẩm</a></li>
+                    <li><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="order-form">
+        <div class="container">
+            <h2>SHOP SẼ LIÊN HỆ TƯ VẤN TRONG VÒNG 24H</h2>
+            <form action="process_order.php" method="POST">
+                <label for="product">HỌ VÀ TÊN:</label><br>
+                <input type="text" id="product" name="product" required><br>
+
+                <label for="product">SỐ ĐIỆN THOẠI / ZALO:</label><br>
+                <input type="text" id="product" name="product" required><br>
+
+                <label for="quantity">SẢN PHẨM:</label><br>
+                <input type="number" id="quantity" name="quantity" required><br>
+
+                <label for="address">Địa chỉ giao hàng:</label><br>
+                <textarea id="address" name="address" rows="4" required></textarea><br>
+
+                <input type="submit" value="LIÊN HỆ">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="logo.png" width="150" height="50" alt="Image Description">
+            <p>&copy; 2024 LUXIOUS CLOTHING. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
